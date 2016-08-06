@@ -5,7 +5,7 @@ It's much eaiser to _create_ your configuration settings when they're grouped in
 
 This library will squash all the files in a directory into a single configuration instance. 
 
-How the files are merged is up to you. You can implement any algorithm you'd like when you implement the `Config` interface. For example, you could use `array_merge()` or an intelligent, recursive algorithm provided by your framework.
+Keep in mind, how the files are merged is up to you. You can use any algorithm you'd like when you implement the `Config` interface. For example, you could use `array_merge()` or an intelligent, recursive algorithm provided by your framework.
 
 ## Example
 
@@ -15,7 +15,7 @@ For this example, we'll create two configuration files in the `/path/to` directo
 
 The first configuration file:
 
-```
+```php
 return [
     'foo' => 'bar'  
 ];
@@ -25,7 +25,7 @@ return [
 
 The second configuration file:
 
-```
+```php
 return [
     'bar' => 'baz'  
 ];
