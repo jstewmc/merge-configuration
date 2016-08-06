@@ -1,0 +1,29 @@
+{
+	"name": "jstewmc/squash-config-directory",
+	"description": "Squash a configuration directory",
+	"keywords": ["php", "jstewmc", "squash", "config", "configuration", "directory"],
+	"authors": [
+		{
+			"name": "Jack Clayton",
+			"email": "clayjs0@gmail.com"	
+		}
+	],
+	"repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/jstewmc/test-case"
+        }   	
+	],
+	"require": {
+		"php": "^7.0"
+	},
+	"require-dev": {
+		"jstewmc/test-case": "^0.1",
+		"mikey179/vfsstream": "^1.6"
+	},
+	"autoload": {
+		"psr-4": {
+			"Jstewmc\\SquashConfigDirectory\\": "src/"
+		}
+	}
+}
