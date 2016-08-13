@@ -1,6 +1,6 @@
 <?php
 /**
- * The file for the squash-config-directory tests
+ * The file for the squash-config-directory service tests
  *
  * @author     Jack Clayton <clayjs0@gmail.com>
  * @copyright  2016 Jack Clayton
@@ -32,7 +32,7 @@ class Foo implements Config
 };
 
 /**
- * Tests for the squash-config-directory context
+ * Tests for the squash-config-directory service
  */
 class SquashTest extends TestCase
 {    

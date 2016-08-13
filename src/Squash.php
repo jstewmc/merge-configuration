@@ -1,6 +1,6 @@
 <?php
 /**
- * The file for the squash-configuration-directory context
+ * The file for the squash-configuration-directory service
  *
  * @author     Jack Clayton <clayjs0@gmail.com>
  * @copyright  2016 Jack Clayton
@@ -14,7 +14,7 @@ use InvalidArgumentException;
 
 
 /**
- * The squash-configuration-directory context
+ * The squash-configuration-directory service
  *
  * @since  0.1.0
  */
@@ -23,7 +23,7 @@ class Squash
     /* !Magic methods */
     
     /**
-     * Squashes the configuration directory
+     * Called when the service is treated like a function
      *
      * @param   string         $directory  the configuration directory
      * @param   Configuration  $config     the configuration result
